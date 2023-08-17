@@ -1,0 +1,7 @@
+cidr_block        = "10.0.0.0/16"
+cidr_block_subnet = "20.0.1.0/18"
+name              = "dev"
+ami_id            = "ami-0f8e81a3da6e2510a"
+instance_type     = "t2.micro"
+region            = "us-west-1"
+tenancy           = "default"
