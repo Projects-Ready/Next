@@ -3,8 +3,8 @@ name: 'Terraform - Testing'
 on: [push]
 
 env:
-  AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_kEY_V }}
-  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRETS_V }}
+  AWS_ACCESS_KEY_ID: ${{ SECRETS_ACCESS_KEY_P }}
+  AWS_SECRET_ACCESS_KEY: ${{ SECRETS_AWS_SECRETS_P }}
 
 jobs:
   build:
